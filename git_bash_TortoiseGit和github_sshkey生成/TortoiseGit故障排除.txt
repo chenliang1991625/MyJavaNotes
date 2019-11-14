@@ -1,0 +1,11 @@
+TortoiseGit安装图解以及（no supported authentication methods avaiable）问题解决
+来源: https://blog.csdn.net/zcl1199/article/details/51546754
+在TortoiseGit向github远程推送（push）文件是会报一个异常?no supported authentication methods avaiable
+
+
+解决方法：因为TortoiseGit和Git的冲突我们需要把乌龟git设置改正如下。
+
+
+找到TortoiseGit--》Settings--》Network(网络)
+
+将SSH client指向?D:\git\usr\bin\ssh.exe （我的Git工具安装在d盘）
